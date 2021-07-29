@@ -1,0 +1,12 @@
+echo "Enter the limit"
+read p
+i=1
+s=0
+while [ $i -le $p ]
+do
+    echo "Enter no."
+    read x
+    s=`expr $s + $x`
+    i=`expr $i + 1`
+done
+echo "The sum is $s"
