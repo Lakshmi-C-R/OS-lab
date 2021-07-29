@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    char c;
+    int n;
+    printf("1.List of files in the directory\n2.List the lines\nEnter the option:");
+    scanf("%d",&n);
+    switch(n){
+    case 1:
+        system("ls");
+        break;
+    case 2:
+        system("grep printf ex1a.c");
+        break;
+}
+}
