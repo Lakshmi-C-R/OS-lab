@@ -1,0 +1,5 @@
+
+Enter two numbers"
+read n1 n2
+s=`expr $n1 + $n2`
+echo "The sum of two numbers are $s"
