@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<unistd.h>
+void main()
+{
+    int pid;
+    fork();
+    pid=getpid();
+    printf("The PID value is %d\n",pid);
+}
